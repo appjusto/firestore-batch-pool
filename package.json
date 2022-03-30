@@ -1,5 +1,5 @@
 {
-  "name": "firestore-batch-pool",
+  "name": "@appjusto/firestore-batch-pool",
   "version": "0.0.1",
   "description": "Handle write batches which exceed 500 limit",
   "main": "lib/index.js",
