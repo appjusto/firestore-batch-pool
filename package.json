@@ -1,0 +1,23 @@
+{
+  "name": "firestore-batch-pool",
+  "version": "0.0.1",
+  "description": "Handle write batches which exceed 500 limit",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node lib/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags && git fetch"
+  },
+  "author": "AppJusto",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "firebase-admin": "^10.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
